@@ -18,6 +18,16 @@
 		934946EE28D2E8B3007E0CC4 /* Myaround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934946ED28D2E8B3007E0CC4 /* Myaround.swift */; };
 		934946F028D2E923007E0CC4 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934946EF28D2E923007E0CC4 /* Chat.swift */; };
 		934946F228D2E9B3007E0CC4 /* MyDanggen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934946F128D2E9B3007E0CC4 /* MyDanggen.swift */; };
+		93B21FEC28D43F1300B8EDC3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 93B21FEB28D43F1300B8EDC3 /* SnapKit */; };
+		93B21FEF28D43FB100B8EDC3 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 93B21FEE28D43FB100B8EDC3 /* RxCocoa */; };
+		93B21FF128D43FB100B8EDC3 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 93B21FF028D43FB100B8EDC3 /* RxRelay */; };
+		93B21FF328D43FB100B8EDC3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 93B21FF228D43FB100B8EDC3 /* RxSwift */; };
+		93B21FF928D4703000B8EDC3 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B21FF828D4703000B8EDC3 /* Main.swift */; };
+		93B21FFB28D4706000B8EDC3 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B21FFA28D4706000B8EDC3 /* Login.swift */; };
+		93B21FFD28D47AA800B8EDC3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */; };
+		93B2200028D47C8000B8EDC3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 93B21FFF28D47C8000B8EDC3 /* FirebaseAuth */; };
+		93B2200228D47C8000B8EDC3 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 93B2200128D47C8000B8EDC3 /* FirebaseMessaging */; };
+		93B2200428D47C8000B8EDC3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 93B2200328D47C8000B8EDC3 /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +44,9 @@
 		934946ED28D2E8B3007E0CC4 /* Myaround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myaround.swift; sourceTree = "<group>"; };
 		934946EF28D2E923007E0CC4 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		934946F128D2E9B3007E0CC4 /* MyDanggen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDanggen.swift; sourceTree = "<group>"; };
+		93B21FF828D4703000B8EDC3 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		93B21FFA28D4706000B8EDC3 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +54,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B2200228D47C8000B8EDC3 /* FirebaseMessaging in Frameworks */,
+				93B21FF128D43FB100B8EDC3 /* RxRelay in Frameworks */,
+				93B2200028D47C8000B8EDC3 /* FirebaseAuth in Frameworks */,
+				93B21FEF28D43FB100B8EDC3 /* RxCocoa in Frameworks */,
+				93B2200428D47C8000B8EDC3 /* FirebaseStorage in Frameworks */,
+				93B21FF328D43FB100B8EDC3 /* RxSwift in Frameworks */,
+				93B21FEC28D43F1300B8EDC3 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +91,8 @@
 				934946D028D1D40F007E0CC4 /* ViewController.swift */,
 				934946D228D1D40F007E0CC4 /* Main.storyboard */,
 				934946F128D2E9B3007E0CC4 /* MyDanggen.swift */,
+				93B21FF828D4703000B8EDC3 /* Main.swift */,
+				93B21FFA28D4706000B8EDC3 /* Login.swift */,
 				934946EF28D2E923007E0CC4 /* Chat.swift */,
 				934946ED28D2E8B3007E0CC4 /* Myaround.swift */,
 				934946EB28D2E76C007E0CC4 /* Dongne.swift */,
@@ -78,6 +100,7 @@
 				934946E228D1D95A007E0CC4 /* 당근마켓 아이콘.png */,
 				934946D728D1D411007E0CC4 /* LaunchScreen.storyboard */,
 				934946DA28D1D411007E0CC4 /* Info.plist */,
+				93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */,
 			);
 			path = "Danggen market study";
 			sourceTree = "<group>";
@@ -99,6 +122,13 @@
 			);
 			name = "Danggen market study";
 			packageProductDependencies = (
+				93B21FEB28D43F1300B8EDC3 /* SnapKit */,
+				93B21FEE28D43FB100B8EDC3 /* RxCocoa */,
+				93B21FF028D43FB100B8EDC3 /* RxRelay */,
+				93B21FF228D43FB100B8EDC3 /* RxSwift */,
+				93B21FFF28D47C8000B8EDC3 /* FirebaseAuth */,
+				93B2200128D47C8000B8EDC3 /* FirebaseMessaging */,
+				93B2200328D47C8000B8EDC3 /* FirebaseStorage */,
 			);
 			productName = "Danggen market study";
 			productReference = 934946C928D1D40F007E0CC4 /* Danggen market study.app */;
@@ -129,6 +159,9 @@
 			);
 			mainGroup = 934946C028D1D40F007E0CC4;
 			packageReferences = (
+				93B21FEA28D43F1300B8EDC3 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				93B21FED28D43FB100B8EDC3 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				93B21FFE28D47C8000B8EDC3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 934946CA28D1D40F007E0CC4 /* Products */;
 			projectDirPath = "";
@@ -146,6 +179,7 @@
 			files = (
 				934946D928D1D411007E0CC4 /* LaunchScreen.storyboard in Resources */,
 				934946E328D1D95A007E0CC4 /* 당근마켓 아이콘.png in Resources */,
+				93B21FFD28D47AA800B8EDC3 /* GoogleService-Info.plist in Resources */,
 				934946D628D1D411007E0CC4 /* Assets.xcassets in Resources */,
 				934946D428D1D40F007E0CC4 /* Main.storyboard in Resources */,
 			);
@@ -160,9 +194,11 @@
 			files = (
 				934946D128D1D40F007E0CC4 /* ViewController.swift in Sources */,
 				934946F028D2E923007E0CC4 /* Chat.swift in Sources */,
+				93B21FF928D4703000B8EDC3 /* Main.swift in Sources */,
 				934946CD28D1D40F007E0CC4 /* AppDelegate.swift in Sources */,
 				934946EE28D2E8B3007E0CC4 /* Myaround.swift in Sources */,
 				934946EC28D2E76C007E0CC4 /* Dongne.swift in Sources */,
+				93B21FFB28D4706000B8EDC3 /* Login.swift in Sources */,
 				934946CF28D1D40F007E0CC4 /* SceneDelegate.swift in Sources */,
 				934946F228D2E9B3007E0CC4 /* MyDanggen.swift in Sources */,
 			);
@@ -382,6 +418,71 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		93B21FEA28D43F1300B8EDC3 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		93B21FED28D43FB100B8EDC3 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		93B21FFE28D47C8000B8EDC3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		93B21FEB28D43F1300B8EDC3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93B21FEA28D43F1300B8EDC3 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		93B21FEE28D43FB100B8EDC3 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93B21FED28D43FB100B8EDC3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		93B21FF028D43FB100B8EDC3 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93B21FED28D43FB100B8EDC3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		93B21FF228D43FB100B8EDC3 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93B21FED28D43FB100B8EDC3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		93B21FFF28D47C8000B8EDC3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93B21FFE28D47C8000B8EDC3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		93B2200128D47C8000B8EDC3 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93B21FFE28D47C8000B8EDC3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		93B2200328D47C8000B8EDC3 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93B21FFE28D47C8000B8EDC3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 934946C128D1D40F007E0CC4 /* Project object */;
 }
