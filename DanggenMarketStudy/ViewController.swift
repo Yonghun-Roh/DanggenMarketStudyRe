@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var homeTableView: UITableView!
+    
     let contentArray = [
     "구찌 캡모자 판매 28,000원",
     
@@ -27,11 +28,64 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     "순금반지 1돈기준 400,000원",
     
-    "나만의 드로잉 원데이 클래스 19,990원"
+    "나만의 드로잉 원데이 클래스 19,990원",
+    
+    "스스로 자라는 화초! 물 안줘도 되요! 20,000원",
+    
+    "작지만 강한 건전지. 자가 충전 100%. 충전 불필요. 100,000원"
+    
+    ]
+    let nameArray = [
+    "독수리2남매",
+    
+    "불광동보일러",
+    
+    "나의작은보물",
+    
+    "가을어느날",
+    
+    "온유한아빠",
+    
+    "작은아씨",
+
+    "리틀리들",
+    
+    "내가방속의지갑",
+    
+    "미래의신랑",
+    
+    "내서랍속화분",
+    
+    "민트초코"
     
     ]
     
+    let nickNameArray = [
+    "@회사원",
+    
+    "@보일러기사",
+    
+    "@감정사",
+    
+    "@카페지기",
+    
+    "@회사원",
+    
+    "@대학생",
 
+    "@소방사",
+    
+    "@경찰",
+    
+    "@군인",
+    
+    "@조경사",
+    
+    "@아이스크림사장"
+    
+    ]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -49,24 +103,28 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.homeTableView.dataSource = self
         
         print("contentArray.count : \(contentArray.count)")
+       
     
     }
     
     // 테이블 뷰 쎌의 갯수
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.contentArray.count
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = homeTableView.dequeueReusableCell(withIdentifier: "myTableViewCell", for: indexPath) as! MyTableViewCell
         
         cell.userContentLabel.text = contentArray[indexPath.row]
+        cell.userNameLabel.text = nameArray[indexPath.row]
+        cell.userJobLabel.text = nickNameArray[indexPath.row]
+    
         
         return cell
     }
     
-    
-    
+  
     
     
     @IBAction func moveByNotice(_ sender: Any) {

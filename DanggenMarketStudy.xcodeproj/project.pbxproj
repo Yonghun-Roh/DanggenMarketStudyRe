@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0519F66B315E1911FA7C644C /* Pods_Danggen_market_study.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60AA86AC4C233BC3C603C863 /* Pods_Danggen_market_study.framework */; };
+		931B6DF52904195900D46CBF /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931B6DF42904195900D46CBF /* MyTableViewCell.xib */; };
 		934946CD28D1D40F007E0CC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934946CC28D1D40F007E0CC4 /* AppDelegate.swift */; };
 		934946CF28D1D40F007E0CC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934946CE28D1D40F007E0CC4 /* SceneDelegate.swift */; };
 		934946D128D1D40F007E0CC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934946D028D1D40F007E0CC4 /* ViewController.swift */; };
-		934946D428D1D40F007E0CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934946D228D1D40F007E0CC4 /* Main.storyboard */; };
+		934946D428D1D40F007E0CC4 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934946D228D1D40F007E0CC4 /* main.storyboard */; };
 		934946D628D1D411007E0CC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934946D528D1D411007E0CC4 /* Assets.xcassets */; };
 		934946D928D1D411007E0CC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934946D728D1D411007E0CC4 /* LaunchScreen.storyboard */; };
 		934946E328D1D95A007E0CC4 /* 당근마켓 아이콘.png in Resources */ = {isa = PBXBuildFile; fileRef = 934946E228D1D95A007E0CC4 /* 당근마켓 아이콘.png */; };
@@ -18,24 +20,25 @@
 		934946EE28D2E8B3007E0CC4 /* Myaround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934946ED28D2E8B3007E0CC4 /* Myaround.swift */; };
 		934946F028D2E923007E0CC4 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934946EF28D2E923007E0CC4 /* Chat.swift */; };
 		934946F228D2E9B3007E0CC4 /* MyDanggen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934946F128D2E9B3007E0CC4 /* MyDanggen.swift */; };
-		93B21FEC28D43F1300B8EDC3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 93B21FEB28D43F1300B8EDC3 /* SnapKit */; };
-		93B21FEF28D43FB100B8EDC3 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 93B21FEE28D43FB100B8EDC3 /* RxCocoa */; };
-		93B21FF128D43FB100B8EDC3 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 93B21FF028D43FB100B8EDC3 /* RxRelay */; };
-		93B21FF328D43FB100B8EDC3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 93B21FF228D43FB100B8EDC3 /* RxSwift */; };
 		93B21FF928D4703000B8EDC3 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B21FF828D4703000B8EDC3 /* Main.swift */; };
 		93B21FFB28D4706000B8EDC3 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B21FFA28D4706000B8EDC3 /* Login.swift */; };
 		93B21FFD28D47AA800B8EDC3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */; };
 		93B2200028D47C8000B8EDC3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 93B21FFF28D47C8000B8EDC3 /* FirebaseAuth */; };
 		93B2200228D47C8000B8EDC3 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 93B2200128D47C8000B8EDC3 /* FirebaseMessaging */; };
 		93B2200428D47C8000B8EDC3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 93B2200328D47C8000B8EDC3 /* FirebaseStorage */; };
+		93FDEBF7290635260011DC5F /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FDEBF6290635260011DC5F /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D007A1D43E43F35647C12A6 /* Pods-Danggen market study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danggen market study.debug.xcconfig"; path = "Target Support Files/Pods-Danggen market study/Pods-Danggen market study.debug.xcconfig"; sourceTree = "<group>"; };
+		60AA86AC4C233BC3C603C863 /* Pods_Danggen_market_study.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Danggen_market_study.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7665168407DED59C13E4EB46 /* Pods-Danggen market study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Danggen market study.release.xcconfig"; path = "Target Support Files/Pods-Danggen market study/Pods-Danggen market study.release.xcconfig"; sourceTree = "<group>"; };
+		931B6DF42904195900D46CBF /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 		934946C928D1D40F007E0CC4 /* Danggen market study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Danggen market study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		934946CC28D1D40F007E0CC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		934946CE28D1D40F007E0CC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		934946D028D1D40F007E0CC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		934946D328D1D40F007E0CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		934946D328D1D40F007E0CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/main.storyboard; sourceTree = "<group>"; };
 		934946D528D1D411007E0CC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		934946D828D1D411007E0CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		934946DA28D1D411007E0CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		93B21FF828D4703000B8EDC3 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		93B21FFA28D4706000B8EDC3 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93FDEBF6290635260011DC5F /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,23 +59,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				93B2200228D47C8000B8EDC3 /* FirebaseMessaging in Frameworks */,
-				93B21FF128D43FB100B8EDC3 /* RxRelay in Frameworks */,
 				93B2200028D47C8000B8EDC3 /* FirebaseAuth in Frameworks */,
-				93B21FEF28D43FB100B8EDC3 /* RxCocoa in Frameworks */,
 				93B2200428D47C8000B8EDC3 /* FirebaseStorage in Frameworks */,
-				93B21FF328D43FB100B8EDC3 /* RxSwift in Frameworks */,
-				93B21FEC28D43F1300B8EDC3 /* SnapKit in Frameworks */,
+				0519F66B315E1911FA7C644C /* Pods_Danggen_market_study.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7216BCD3A89C9C3630E3E38F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D007A1D43E43F35647C12A6 /* Pods-Danggen market study.debug.xcconfig */,
+				7665168407DED59C13E4EB46 /* Pods-Danggen market study.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		934946C028D1D40F007E0CC4 = {
 			isa = PBXGroup;
 			children = (
-				934946CB28D1D40F007E0CC4 /* Danggen market study */,
+				934946CB28D1D40F007E0CC4 /* DanggenMarketStudy */,
 				934946CA28D1D40F007E0CC4 /* Products */,
+				7216BCD3A89C9C3630E3E38F /* Pods */,
+				9C7C9B24B301159BDFCE8BDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,13 +95,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		934946CB28D1D40F007E0CC4 /* Danggen market study */ = {
+		934946CB28D1D40F007E0CC4 /* DanggenMarketStudy */ = {
 			isa = PBXGroup;
 			children = (
 				934946CC28D1D40F007E0CC4 /* AppDelegate.swift */,
 				934946CE28D1D40F007E0CC4 /* SceneDelegate.swift */,
 				934946D028D1D40F007E0CC4 /* ViewController.swift */,
-				934946D228D1D40F007E0CC4 /* Main.storyboard */,
+				934946D228D1D40F007E0CC4 /* main.storyboard */,
+				93FDEBF6290635260011DC5F /* MyTableViewCell.swift */,
+				931B6DF42904195900D46CBF /* MyTableViewCell.xib */,
 				934946F128D2E9B3007E0CC4 /* MyDanggen.swift */,
 				93B21FF828D4703000B8EDC3 /* Main.swift */,
 				93B21FFA28D4706000B8EDC3 /* Login.swift */,
@@ -102,7 +116,15 @@
 				934946DA28D1D411007E0CC4 /* Info.plist */,
 				93B21FFC28D47AA800B8EDC3 /* GoogleService-Info.plist */,
 			);
-			path = "Danggen market study";
+			path = DanggenMarketStudy;
+			sourceTree = "<group>";
+		};
+		9C7C9B24B301159BDFCE8BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60AA86AC4C233BC3C603C863 /* Pods_Danggen_market_study.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 934946DD28D1D411007E0CC4 /* Build configuration list for PBXNativeTarget "Danggen market study" */;
 			buildPhases = (
+				2C23756AD837862572F13CFD /* [CP] Check Pods Manifest.lock */,
 				934946C528D1D40F007E0CC4 /* Sources */,
 				934946C628D1D40F007E0CC4 /* Frameworks */,
 				934946C728D1D40F007E0CC4 /* Resources */,
+				990D80ED2F1473B6AC57452C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,10 +146,6 @@
 			);
 			name = "Danggen market study";
 			packageProductDependencies = (
-				93B21FEB28D43F1300B8EDC3 /* SnapKit */,
-				93B21FEE28D43FB100B8EDC3 /* RxCocoa */,
-				93B21FF028D43FB100B8EDC3 /* RxRelay */,
-				93B21FF228D43FB100B8EDC3 /* RxSwift */,
 				93B21FFF28D47C8000B8EDC3 /* FirebaseAuth */,
 				93B2200128D47C8000B8EDC3 /* FirebaseMessaging */,
 				93B2200328D47C8000B8EDC3 /* FirebaseStorage */,
@@ -149,7 +169,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 934946C428D1D40F007E0CC4 /* Build configuration list for PBXProject "Danggen market study" */;
+			buildConfigurationList = 934946C428D1D40F007E0CC4 /* Build configuration list for PBXProject "DanggenMarketStudy" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -178,14 +198,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				934946D928D1D411007E0CC4 /* LaunchScreen.storyboard in Resources */,
+				931B6DF52904195900D46CBF /* MyTableViewCell.xib in Resources */,
 				934946E328D1D95A007E0CC4 /* 당근마켓 아이콘.png in Resources */,
 				93B21FFD28D47AA800B8EDC3 /* GoogleService-Info.plist in Resources */,
 				934946D628D1D411007E0CC4 /* Assets.xcassets in Resources */,
-				934946D428D1D40F007E0CC4 /* Main.storyboard in Resources */,
+				934946D428D1D40F007E0CC4 /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C23756AD837862572F13CFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Danggen market study-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		990D80ED2F1473B6AC57452C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Danggen market study/Pods-Danggen market study-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Danggen market study/Pods-Danggen market study-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Danggen market study/Pods-Danggen market study-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		934946C528D1D40F007E0CC4 /* Sources */ = {
@@ -195,6 +258,7 @@
 				934946D128D1D40F007E0CC4 /* ViewController.swift in Sources */,
 				934946F028D2E923007E0CC4 /* Chat.swift in Sources */,
 				93B21FF928D4703000B8EDC3 /* Main.swift in Sources */,
+				93FDEBF7290635260011DC5F /* MyTableViewCell.swift in Sources */,
 				934946CD28D1D40F007E0CC4 /* AppDelegate.swift in Sources */,
 				934946EE28D2E8B3007E0CC4 /* Myaround.swift in Sources */,
 				934946EC28D2E76C007E0CC4 /* Dongne.swift in Sources */,
@@ -207,12 +271,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		934946D228D1D40F007E0CC4 /* Main.storyboard */ = {
+		934946D228D1D40F007E0CC4 /* main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				934946D328D1D40F007E0CC4 /* Base */,
 			);
-			name = Main.storyboard;
+			name = main.storyboard;
 			sourceTree = "<group>";
 		};
 		934946D728D1D411007E0CC4 /* LaunchScreen.storyboard */ = {
@@ -342,6 +406,7 @@
 		};
 		934946DE28D1D411007E0CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D007A1D43E43F35647C12A6 /* Pods-Danggen market study.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -352,7 +417,7 @@
 				INFOPLIST_FILE = "Danggen market study/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,12 +429,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		934946DF28D1D411007E0CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7665168407DED59C13E4EB46 /* Pods-Danggen market study.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -380,7 +446,7 @@
 				INFOPLIST_FILE = "Danggen market study/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -392,14 +458,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		934946C428D1D40F007E0CC4 /* Build configuration list for PBXProject "Danggen market study" */ = {
+		934946C428D1D40F007E0CC4 /* Build configuration list for PBXProject "DanggenMarketStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				934946DB28D1D411007E0CC4 /* Debug */,
@@ -447,26 +513,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		93B21FEB28D43F1300B8EDC3 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 93B21FEA28D43F1300B8EDC3 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		93B21FEE28D43FB100B8EDC3 /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 93B21FED28D43FB100B8EDC3 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
-		93B21FF028D43FB100B8EDC3 /* RxRelay */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 93B21FED28D43FB100B8EDC3 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxRelay;
-		};
-		93B21FF228D43FB100B8EDC3 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 93B21FED28D43FB100B8EDC3 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
 		93B21FFF28D47C8000B8EDC3 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 93B21FFE28D47C8000B8EDC3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
