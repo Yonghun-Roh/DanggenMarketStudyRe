@@ -414,7 +414,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3L97JN3N9K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Danggen market study/Info.plist";
+				INFOPLIST_FILE = DanggenMarketStudy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = main;
@@ -443,7 +443,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3L97JN3N9K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Danggen market study/Info.plist";
+				INFOPLIST_FILE = DanggenMarketStudy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = main;
