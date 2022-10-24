@@ -18,4 +18,11 @@ class MainViewController: UIViewController {
         self.present(uvc, animated: true)
     }
     
+    @IBAction func moveByStartVC(_ sender: Any) {
+        
+        guard let svc = self.storyboard?.instantiateViewController(withIdentifier: "StartVC") else {
+            return
+        }
+        self.present(svc, animated: true)
+    }
 }

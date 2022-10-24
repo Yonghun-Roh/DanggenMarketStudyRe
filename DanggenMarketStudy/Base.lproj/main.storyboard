@@ -143,7 +143,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hG7-1j-TLK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="183" y="-834"/>
+            <point key="canvasLocation" x="1619" y="-822"/>
         </scene>
         <!--동네생활-->
         <scene sceneID="hvQ-V7-7eO">
@@ -170,7 +170,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6wP-lP-Aj7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1106" y="629"/>
+            <point key="canvasLocation" x="354" y="-96"/>
         </scene>
         <!--내 근처-->
         <scene sceneID="z1N-yv-7Sa">
@@ -197,7 +197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WtJ-K9-h6F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2026" y="629"/>
+            <point key="canvasLocation" x="1075" y="-96"/>
         </scene>
         <!--채팅-->
         <scene sceneID="EoG-TB-Hye">
@@ -224,7 +224,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="89w-QJ-YNH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2810" y="629"/>
+            <point key="canvasLocation" x="1846" y="-96"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="55d-TV-YQc">
@@ -262,6 +262,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="시작하기">
                                     <color key="baseBackgroundColor" red="0.93725490199999995" green="0.56583803889999995" blue="0.30181527139999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="moveByStartVC:" destination="pNi-Te-b3e" eventType="touchUpInside" id="2Ni-jR-1ra"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이미 계정이 있나요?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sW2-2V-yXv">
                                 <rect key="frame" x="103" y="818" width="138" height="26"/>
@@ -290,7 +293,75 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c3b-mR-aKC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1825" y="-834"/>
+            <point key="canvasLocation" x="183" y="-1511"/>
+        </scene>
+        <!--Start View Controller-->
+        <scene sceneID="Ezr-Kn-dhq">
+            <objects>
+                <viewController storyboardIdentifier="StartVC" id="Pgz-Dl-L7L" customClass="StartViewController" customModule="Danggen_market_study" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sLt-Zt-DKY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="안녕하세요! 이메일 주소로 가입해주세요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bav-OY-4j6">
+                                <rect key="frame" x="20" y="82" width="266" height="57.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이메일 주소는 안전하게 보관되며 이웃들에게 공개되지 않아요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ba5-vH-4Ts">
+                                <rect key="frame" x="20" y="163" width="366" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p5F-nx-xyZ">
+                                <rect key="frame" x="20" y="222" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Iyd-m6-gcV">
+                                <rect key="frame" x="20" y="282" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Nc-Gx-NVz">
+                                <rect key="frame" x="134" y="389" width="146" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="동의하고 시작하기">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.93725490196078431" green="0.56583803889999995" blue="0.30181527139999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="17"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="p0v-Ru-C1o"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="p5F-nx-xyZ" firstAttribute="top" secondItem="ba5-vH-4Ts" secondAttribute="bottom" constant="41" id="04V-nM-A3N"/>
+                            <constraint firstItem="0Nc-Gx-NVz" firstAttribute="leading" secondItem="p0v-Ru-C1o" secondAttribute="leading" constant="134" id="1sw-Z3-Owi"/>
+                            <constraint firstItem="Bav-OY-4j6" firstAttribute="top" secondItem="p0v-Ru-C1o" secondAttribute="top" constant="38" id="4gl-w8-wii"/>
+                            <constraint firstItem="p0v-Ru-C1o" firstAttribute="trailing" secondItem="Bav-OY-4j6" secondAttribute="trailing" constant="128" id="BLk-sj-kuc"/>
+                            <constraint firstItem="p0v-Ru-C1o" firstAttribute="trailing" secondItem="0Nc-Gx-NVz" secondAttribute="trailing" constant="134" id="C80-ny-3Lk"/>
+                            <constraint firstItem="Iyd-m6-gcV" firstAttribute="leading" secondItem="p0v-Ru-C1o" secondAttribute="leading" constant="20" id="GQD-cJ-VD1"/>
+                            <constraint firstItem="Iyd-m6-gcV" firstAttribute="top" secondItem="p5F-nx-xyZ" secondAttribute="bottom" constant="26" id="Wgl-jr-Wsu"/>
+                            <constraint firstItem="ba5-vH-4Ts" firstAttribute="top" secondItem="Bav-OY-4j6" secondAttribute="bottom" constant="23.5" id="bEX-uY-U3g"/>
+                            <constraint firstItem="p5F-nx-xyZ" firstAttribute="leading" secondItem="p0v-Ru-C1o" secondAttribute="leading" constant="20" id="cvg-1D-3Wn"/>
+                            <constraint firstItem="p0v-Ru-C1o" firstAttribute="trailing" secondItem="Iyd-m6-gcV" secondAttribute="trailing" constant="20" id="fvE-Tg-UPj"/>
+                            <constraint firstItem="p0v-Ru-C1o" firstAttribute="bottom" secondItem="0Nc-Gx-NVz" secondAttribute="bottom" constant="438" id="hRv-tw-gSa"/>
+                            <constraint firstItem="ba5-vH-4Ts" firstAttribute="leading" secondItem="Bav-OY-4j6" secondAttribute="leading" id="hkB-YD-IFV"/>
+                            <constraint firstItem="p0v-Ru-C1o" firstAttribute="trailing" secondItem="p5F-nx-xyZ" secondAttribute="trailing" constant="20" id="mTS-nP-Vh2"/>
+                            <constraint firstItem="0Nc-Gx-NVz" firstAttribute="top" secondItem="Iyd-m6-gcV" secondAttribute="bottom" constant="73" id="oo3-Xt-3zh"/>
+                            <constraint firstItem="Bav-OY-4j6" firstAttribute="leading" secondItem="p0v-Ru-C1o" secondAttribute="leading" constant="20" id="uAa-hS-ohZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ybR-fk-mu0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-607.24637681159425" y="-822.32142857142856"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="SOy-x8-VRb">
@@ -324,7 +395,7 @@
                                     <action selector="back:" destination="QkI-Ol-wf1" eventType="touchUpInside" id="L8Y-PX-sDK"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ArO-00-2Vo">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ArO-00-2Vo">
                                 <rect key="frame" x="20" y="306" width="374" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -351,7 +422,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HdC-Y2-eCH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-574" y="-834"/>
+            <point key="canvasLocation" x="861" y="-822"/>
         </scene>
         <!--나의 당근-->
         <scene sceneID="8J4-hf-Ftc">
@@ -378,7 +449,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OgK-46-AcT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3600" y="629"/>
+            <point key="canvasLocation" x="2578" y="-96"/>
         </scene>
         <!--홈-->
         <scene sceneID="AMj-ZH-kHW">
@@ -417,7 +488,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kyJ-vL-KEa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1082.608695652174" y="-834.375"/>
+            <point key="canvasLocation" x="-575" y="-1511"/>
         </scene>
     </scenes>
     <resources>
