@@ -59,6 +59,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     "민트초코"
     
     ]
+    // test 문구 삽입
+    
     
     let nickNameArray = [
     "@회사원",
